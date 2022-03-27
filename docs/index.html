@@ -1,0 +1,65 @@
+<html>
+
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>ANZx Platform Tech Radar</title>
+<link rel="shortcut icon" href="https://www.zalando.de/favicon.ico">
+
+<script src="radar.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<link rel="stylesheet" href="radar.css">
+</head>
+
+<body>
+  <form id="myForm">
+    <input type="file" id="csvFile" accept=".csv" />
+    <br />
+    <p>
+
+
+      
+      </p>
+    <input type="submit" value="Submit and Generate Radar" />
+  </form>
+
+<svg id="radar"></svg>
+
+<script src="load_radar.js"></script>
+
+<table>
+<tr>
+<td>
+
+<h3>What is the Tech Radar?</h3>
+
+<p>
+The Tech Radar is a list of technologies, complemented by an assessment result, called <em>ring assignment</em>. We use four rings with the following semantics:
+</p>
+
+<ul>
+  <li><strong>ADOPT</strong> &mdash; Technologies we have high confidence in to serve our purpose, also in large scale. Technologies with a usage culture in our production environment, low risk and recommended to be widely used.</li>
+  <li><strong>TRIAL</strong> &mdash; Technologies with great potential for exploration to be implemented in the future</li>
+  <li><strong>ASSESS</strong> &mdash; Technologies currently undergoing issues and requiring replacement</li>
+  <li><strong>HOLD</strong> &mdash; Technologies not recommended to be used. Technologies that we think are not (yet) worth to (further) invest in.</li>
+  </ul>
+
+</td><td>
+
+<h3>What is the purpose?</h3>
+
+<p>
+Identify best practices in ANZx Cloud Platform - for service owners running workload in clusters on our platform (e.g. managing secrets, what should/shouldn't do). Furthermore, this information can be used for decision making & prioritisation of work.<br/>
+</p>
+
+<h3>How do we maintain it?</h3>
+
+<p>
+<br/>
+</p>
+
+</td></tr>
+</table>
+
+</body>
+</html>
