@@ -24,12 +24,12 @@ function toEntry(array) {
   let entry = []
   for (let k=0; k<array.length; k++){
     let entryObject = {
-    quadrant: quadrantarr.indexOf(array[k].quadrant),
-    ring: ringarr.indexOf(array[k].ring),
-    name: array[k].name,
-    link: array[k].link,
-    active: array[k].active,
-    moved: movedarr.indexOf(array[k].moved)
+    "quadrant": quadrantarr.indexOf(array[k].quadrant),
+    "ring": ringarr.indexOf(array[k].ring),
+    "name": array[k].name,
+    "link": array[k].link,
+    "active": true,
+    "moved": movedarr.indexOf(array[k].moved)
     };
     entry.push(entryObject);
   }

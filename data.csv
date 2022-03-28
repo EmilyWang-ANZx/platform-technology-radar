@@ -1,3 +1,7 @@
-quadrant,ring,name,active,moved,link
-techniques,Trial,bash,true,yes,https://d3-wiki.readthedocs.io/zh_CN/master/CSV/
-tools,Hold,Javascript and node,true,no
+quadrant,ring,name,moved,link
+platforms and services,Assess,CloudRun,no
+platforms and services,Trial,Secrets CSI driver,no,https://platform-digest-docs.services.x.gcpnp.anz/services/csi-driver/sync/1-overview
+platforms and services,Adopt,Pod Disruption Budgets,no
+tools,Trial,HorizontalPodAutoscaler,no
+languages and framework,Hold,Make,yes
+techniques,Hold,Secrets init containers,no

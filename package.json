@@ -3,6 +3,7 @@
   "version": "1.0",
   "description": "Visualising technology choices available in ANZx Platform",
   "repository": "https://github.com/EmilyWang-ANZx/platform-technology-radar",
+  "license": "MIT",
   "directories": {
     "doc": "docs"
   },
